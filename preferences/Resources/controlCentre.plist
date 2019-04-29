@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>CSPImageCell</string>
+				<key>height</key>
+				<string>130</string>
+				<key>static</key>
+				<true/>
+				<key>key</key>
+				<string>selectPhotos</string>
+				<key>storePath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle/banners/cc_status.png</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			<dict>
+			 <key>cell</key>
+			 <string>PSSwitchCell</string>
+			 <key>label</key>
+			 <string>Status_Bar</string>
+			 <key>sublabel</key>
+			 <string>Show_Centre</string>
+			 <key>key</key>
+			 <string>statusBarCC</string>
+			 <key>PostNotification</key>
+			 <string>com.vitataf.homegesture.prefschanged</string>
+			 <key>defaults</key>
+			 <string>com.vitataf.homegesture</string>
+			 <key>defaultsPath</key>
+			 <string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSGroupCell</string>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSSwitchCell</string>
+			 <key>label</key>
+			 <string>Enable_Padding</string>
+			 <key>sublabel</key>
+			 <string>Padding_Info</string>
+			 <key>key</key>
+			 <string>enableFUGAP</string>
+			 <key>PostNotification</key>
+			 <string>com.vitataf.homegesture.prefschanged</string>
+			 <key>defaults</key>
+			 <string>com.vitataf.homegesture</string>
+			 <key>defaultsPath</key>
+			 <string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSTableCell</string>
+			 <key>cellClass</key>
+			 <string>CSPImageCell</string>
+			 <key>height</key>
+			 <string>180</string>
+			 <key>static</key>
+			 <true/>
+			 <key>key</key>
+			 <string>selectPhotos</string>
+			 <key>storePath</key>
+			 <string>/Library/PreferenceBundles/HomeGesture.bundle/banners/cc_vert.png</string>
+			 <key>defaults</key>
+			 <string>com.vitataf.homegesture</string>
+			 <key>defaultsPath</key>
+			 <string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+		 </dict>
+
+		 <dict>
+			 <key>cell</key>
+			 <string>PSStaticTextCell</string>
+			 <key>pushToPlist</key>
+			 <string></string>
+			 <key>label</key>
+			 <string>Top_Padding</string>
+			 <key>sublabel</key>
+			 <string>Change_Centre</string>
+			 <key>icon</key>
+			 <string>icons/vertical</string>
+		 </dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>isContinuous</key>
+				<true/>
+				<key>key</key>
+				<string>vertical</string>
+				<key>leftImage</key>
+				<string/>
+				<key>max</key>
+				<real>100</real>
+				<key>min</key>
+				<real>0</real>
+				<key>rightImage</key>
+				<string/>
+				<key>showValue</key>
+				<false/>
+				<key>PostNotification</key>
+				<string>com.vitataf.homegesture.prefschanged</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>CSPImageCell</string>
+				<key>height</key>
+				<string>185</string>
+				<key>static</key>
+				<true/>
+				<key>key</key>
+				<string>selectPhotos</string>
+				<key>storePath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle/banners/cc_landscape.png</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+			
+			
+
+			<dict>
+				<key>cell</key>
+				<string>PSStaticTextCell</string>
+				<key>pushToPlist</key>
+				<string></string>
+				<key>label</key>
+				<string>Top_Padding_(Landscape)</string>
+				<key>sublabel</key>
+				<string>Change_CC</string>
+				<key>icon</key>
+				<string>icons/horizontal</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSliderCell</string>
+				<key>isContinuous</key>
+				<true/>
+				<key>key</key>
+				<string>verticalLandscape</string>
+				<key>leftImage</key>
+				<string/>
+				<key>max</key>
+				<real>100</real>
+				<key>min</key>
+				<real>0</real>
+				<key>rightImage</key>
+				<string/>
+				<key>showValue</key>
+				<false/>
+				<key>PostNotification</key>
+				<string>com.vitataf.homegesture.prefschanged</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>MidnightChips, VitaTaf, PINPAL © 2018</string>
+				<key>footerAlignment</key>
+				<integer>1</integer>
+			</dict>
+
+		</array>
+		<key>title</key>
+		<string>Control_Centre</string>
+	</dict>
+</plist>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>MidnightChips, VitaTaf, PINPAL © 2018</string>
+				<key>footerAlignment</key>
+				<integer>1</integer>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>CSPImageCell</string>
+				<key>height</key>
+				<string>80</string>
+				<key>static</key>
+				<true/>
+				<key>key</key>
+				<string>selectPhotos</string>
+				<key>storePath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle/banners/round_screenshot.png</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>label</key>
+				<string>Round_Screenshot_Preview</string>
+				<key>sublabel</key>
+				<string>Does_itself</string>
+				<key>key</key>
+				<string>roundScreenshot</string>
+				<key>PostNotification</key>
+				<string>com.vitataf.homegesture.prefschanged</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSSwitchCell</string>
+				<key>label</key>
+				<string>iPhone_X_KEYBOARD</string>
+				<key>sublabel</key>
+				<string>iPhone_X_STYLE</string>
+				<key>key</key>
+				<string>ipxKeyboard</string>
+				<key>PostNotification</key>
+				<string>com.vitataf.homegesture.prefschanged</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			
+
+		</array>
+		<key>title</key>
+		<string>Miscellaneous</string>
+	</dict>
+</plist>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>items</key>
+		<array>
+
+			<dict>
+				<key>cell</key>
+				<string>PSTableCell</string>
+				<key>cellClass</key>
+				<string>CSPImageCell</string>
+				<key>height</key>
+				<string>160</string>
+				<key>static</key>
+				<true/>
+				<key>key</key>
+				<string>selectPhotos</string>
+				<key>storePath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle/banner.png</string>
+				<key>defaults</key>
+				<string>com.vitataf.homegesture</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>appSwitcher</string>
+				<key>label</key>
+				<string>App_Switcher</string>
+				<key>icon</key>
+				<string>icons/appSwitcher</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>blackList</string>
+				<key>label</key>
+				<string>Blacklisting</string>
+				<key>icon</key>
+				<string>icons/blacklist</string>
+			</dict>
+
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>controlCentre</string>
+				<key>label</key>
+				<string>Control_Center</string>
+				<key>icon</key>
+				<string>icons/controlCentre</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>buttonMapping</string>
+				<key>label</key>
+				<string>Hardware_Buttons</string>
+				<key>icon</key>
+				<string>icons/buttons</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>homeBar</string>
+				<key>label</key>
+				<string>Home_Bar</string>
+				<key>icon</key>
+				<string>icons/homeBar</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>lockScreen</string>
+				<key>label</key>
+				<string>Lock_Screen</string>
+				<key>icon</key>
+				<string>icons/lockScreen</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>statusBar</string>
+				<key>label</key>
+				<string>Status_Bar</string>
+				<key>icon</key>
+				<string>icons/statusBar</string>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>miscellaneous</string>
+				<key>label</key>
+				<string>Miscellaneous</string>
+				<key>icon</key>
+				<string>icons/miscellaneous</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSGroupCell</string>
+				<key>footerText</key>
+				<string>MidnightChips, VitaTaf, PINPAL © 2018</string>
+				<key>footerAlignment</key>
+				<integer>1</integer>
+			</dict>
+
+			<dict>
+				<key>action</key>
+				<string>pushToView:</string>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>pushToPlist</key>
+				<string>Support</string>
+				<key>label</key>
+				<string>Support</string>
+				<key>key</key>
+				<string>support</string>
+				<key>icon</key>
+				<string>icons/donate</string>
+			</dict>
+
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>detail</key>
+				<string>CSPBackupListViewController</string>
+				<key>isController</key>
+				<true/>
+				<key>PostNotification</key>
+				<string>com.vitataf.homegesture.prefschanged</string>
+				<key>defaultsPath</key>
+				<string>/Library/PreferenceBundles/HomeGesture.bundle/defaults.plist</string>
+				<key>label</key>
+				<string>Backup_Restore</string>
+				<key>icon</key>
+				<string>icons/backupRestore</string>
+			</dict>
+
+			<!-- Changelog and Version Cells - waiting for CreatureSurvive to fix libCSPrefs
+			<dict>
+				<key>cell</key>
+				<string>PSLinkCell</string>
+				<key>detail</key>
+				<string>CSPChangeLogController</string>
+				<key>isController</key>
+				<true/>
+				<key>label</key>
+				<string>Change Log</string>
+				<key>icon</key>
+				<string>icons/changes.png</string>
+				<key>changes</key>
+				<array>
+					<dict>
+						<key>2.0</key>
+						<array>
+							<string>Redesigned Preferences</string>
+							<string>Fixed iPhone X Status Bar</string>
+							<string>Added Status Bar in CC Toggle</string>
+							<string>Added Quick Setup</string>
+							<string>Reduced Memory Use - Performance Improvements</string>
+							<string>Fixed CC Pocket Padding</string>
+							<string>Improved Stability of Swipe to Close in App Switcher</string>
+							<string>Repaired Screenshot Remap</string>
+							<string>Fixed CC Hint Toggle</string>
+							<string>Migrated to libCSPrefs and libCSColorPicker</string>
+							<string>Added Backup/Restore to Preferences</string>
+							<string>Added This Change Log to Preferneces</string>
+						</array>
+						<key>1.8.2</key>
+						<array>
+							<string>Fixed CC Padding Issues</string>
+						</array>
+						<key>1.8.1></key>
+						<array>
+							<string>Added Round App Switcher Cards</string>
+						</array>
+						<key>1.8.0</key>
+						<array>
+							<string>Added Option to use Original Screenshot Gestures</string>
+						</array>
+						<key>1.7.9</key>
+						<array>
+							<string>Added FUGap - Thanks @smokin1337</string>
+						</array>
+						<key>1.7.8</key>
+						<array>
+							<string>Added iPhone X Status Bar</string>
+							<string>Added iPX Status Bar in CC</string>
+							<string>Added option to disable gestures in selected apps</string>
+							<string>Added option to disable gestures with Keyboard</string>
+						</array>
+						<key>1.7.7</key>
+						<array>
+							<string>Removed CC Pocket - Thanks @Simalary</string>
+						</array>
+						<key>1.7.6</key>
+						<array>
+							<string>Added Option for Swipe o Close Apps</string>
+						</array>
+						<key>1.7.5</key>
+						<array>
+							<string>Minor Bug Fixes</string>
+						</array>
+						<key>1.7.4</key>
+						<array>
+							<string>Added Option to Color Home Bar</string>
+						</array>
+						<key>1.7.3</key>
+						<array>
+							<string>Fixed Lock Page Dots not Disapearing Correctly</string>
+						</array>
+						<key>1.7.2</key>
+						<array>
+							<string>Minor Bug Fixes</string>
+						</array>
+						<key>1.7.1</key>
+						<array>
+							<string>Minor Bug Fixes</string>
+						</array>
+						<key>1.4</key>
+						<array>
+							<string>Added Preferences to Tweak</string>
+						</array>
+						<key>1.3</key>
+						<array>
+							<string>iOS 11.2+ Support</string>
+							<string>Hide CC Indicator</string>
+						</array>
+						<key>1.2</key>
+						<array>
+							<string>Added Swipe to Close in App Switcher</string>
+						</array>
+						<key>1.1</key>
+						<array>
+							<string>Restored footer indicators in Cover Sheet</string>
+							<string>Restored abilty to activate Siri using Home Button</string>
+						</array>
+						<key>1.0</key>
+						<array>
+							<string>Initial Release! A big thanks to VitaTaf!</string>
+						</array>
+					</dict>
+				</array>
+			</dict>
+-->
+			<dict>
+				<key>cell</key>
+				<string>PSStaticTextCell</string>
+				<key>cellClass</key>
+				<string>CSPVersionCell</string>
+				<key>bundleID</key>
+				<string>com.vitataf.homegesture</string>
+				<key>label</key>
+				<string>Version</string>
+				<key>icon</key>
+				<string>icons/currentVersion</string>
+			</dict>
+			
+		</array>
+		<key>title</key>
+		<string>HomeGesture</string>
+	</dict>
+</plist>

@@ -1,0 +1,16 @@
+{
+    "iPhone_X_Style" = "iPhone X Style Status Bar";
+    "Add_additional_space" = "Add additional space to simulate a notch";
+    "Hide_Carrier" = "Hide Status Bar Carrier";
+    "Hide_carrier_Status" = "Hide carrier from the Status Bar";
+    "Disable_BreadCrumbs" = "Disable BreadCrumbs";
+    "Hide_back_app" = "Hide back to app button from Status Bar";
+    "Status_Bar" = "Status Bar in CC";
+    "Show_CC" = "Show the status bar in Control Centre";
+    "Status_Bar" = "Status Bar";
+    "Show_Centre" = "Show the status bar in Control Centre";
+    "iPad_STYLE" = "iPad Style Status Bar";
+    "Mimic_iPad" = "Mimics iPad Status Bar, adds date (iOS 12)";
+    "Disable_IPX_IN_APPS" = "Disable the iPhone X Status bar in incompatible apps (iOS 12)";
+    "Turn_ON_iPad_FallBack"= "You can also enable the iPad status bar for those apps as a fallback"; 
+}
